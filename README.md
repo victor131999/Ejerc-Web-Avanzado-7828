@@ -1,15 +1,11 @@
 # Ejerc-Web-Avanzado-7828
 con cloud functions
-Proyecto de Firebase
-1. Crear el proyecto
-2. Crear la base de datos Firestore
-3. Crear el repositorio y clonarlo en una carpeta de la máquina
-4. Crear el proyecto: firebase init
-5. Instalar las dependencias en /functions: 
-	=> npm i --save express
-	=> npm i --save firebase-admin
-	=> npm i --save body-parser
-	=> npm i --save firebase-functions-helper
-6. Programar las funciones
-7. Desplegar el proyecto firebase deploy
-8. Commit to master
+DEPLOY
+1. Generar nueva clave privada, descargar y ubicarla en la carpeta del proyecto
+2. Cambiar de rama git branch develop / git checkout develop
+3. Colocar el archivo de la clave como .gitignore
+4. Add "resolveJsonModule": true en el tsconfig
+5. Compilar proyecto con npm run build
+6. Probar firebase serve
+7. Commit to develop
+SERVE
