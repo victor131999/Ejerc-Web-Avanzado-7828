@@ -5,11 +5,11 @@ import * as express from 'express';
 import * as bodyParser from 'body-parser';
 
 //inicualizacion de la aplicacion para produccion o de forma loca(el codigo comentado es para trabajar de forma local)
-admin.initializeApp(functions.config().firebase);
-/*admin.initializeApp({
+//admin.initializeApp(functions.config().firebase);
+admin.initializeApp({
     credential: admin.credential.cert(require('../../serviceAccountKey.json')),
-    databaseURL: "https://proyecto-1-nrc-7828.firebaseio.com"
-});*/
+    databaseURL: "https://ejercicio-web-avanzado.firebaseio.com"
+});
 
 
 //variables
